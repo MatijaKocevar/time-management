@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
     dateFormat: "Y-m-d H:i",
     time_24hr: true,
     minDate: now,
-    defaultDate: now,
     disable: [
       (date) => {
         return date.getDay() === 0 || date.getDay() === 6;

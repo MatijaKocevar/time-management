@@ -57,6 +57,11 @@ body {
     border: 1px solid #646cff;
     border-radius: 4px;
     margin-bottom: 1rem;
+    color: #fff !important;
+  }
+
+  input::placeholder {
+    color: #fff;
   }
 }
 
