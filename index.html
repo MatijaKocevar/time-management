@@ -10,7 +10,15 @@
 
 <body>
   <div id="app">
-    TIME MANAGEMENT
+    <div class="date-selection">
+      <h1>Select a Date for the Interview</h1>
+      <label for="datePicker"></label>
+      <input type="datetime-local" id="datePicker" placeholder="Choose a date">
+    </div>
+    <div class="formatted-message">
+      <h1>Formatted message</h1>
+      <p class="message" id="message"></p>
+    </div>
   </div>
   <script type="module" src="/src/main.ts"></script>
 </body>

@@ -42,3 +42,28 @@ body {
   justify-content: center;
   gap: 2rem;
 }
+
+.date-selection {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formatted-message {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  height: 100px;
+}
+
+#datePicker {
+  text-align: center;
+  padding: 0.5rem;
+}
