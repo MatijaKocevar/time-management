@@ -49,7 +49,7 @@ const buildInterviewMessage = (date: Date): string => {
     minute: "numeric",
     hour12: false,
   };
-  const formattedDate = new Intl.DateTimeFormat("en-US", dateOptions).format(
+  const formattedDate = new Intl.DateTimeFormat("en-Gb", dateOptions).format(
     date
   );
 
